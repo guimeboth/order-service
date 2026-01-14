@@ -11,12 +11,10 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ItemPedido {
+public class Produto {
 
     private Long id;
-    private Pedido pedido;
-    private Produto produto;
-    private Integer quantidade;
+    private String nome;
     private BigDecimal preco;
 
 }
